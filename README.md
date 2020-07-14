@@ -23,3 +23,5 @@ python3 create_rel_table.py > rel_table.txt
 python3 create_synset2lang_table.py > synset2lang_table.txt
 
 echo 'This is a test of morphological decompositions of some words' | tr ' ' '\n' | python3 wordnet_decomp.py 
+
+Questions: kenneth.ward.church@gmail.com
