@@ -17,6 +17,8 @@ Then go into python and say:
 import nltk
   <br>
 nltk.download('wordnet')
+  <br>
+  nltk.download('omw')
 
 <p>
 Usage:
