@@ -9,9 +9,14 @@ Creates a three simple tables:
   <li>lemma_table.txt: (head, rel, tail, language), where head and tail are lemmas</li>
 </ol>
 
-Code is embarrassingly simple.
+Code is embarrassingly simple.  Requires numpy and NLTK.  Please install that first.
+See https://www.nltk.org/install.html for NLTK.
 <p>
-Depends on NLTL (please install that first; see https://www.nltk.org/install.html)
+Then go into python and say:
+<br>
+import nltk
+  <br>
+nltk.download('wordnet')
 
 <p>
 Usage:
