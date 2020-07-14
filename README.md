@@ -13,22 +13,22 @@ Code is embarrassingly simple.  Requires numpy and NLTK.  Please install that fi
 See https://www.nltk.org/install.html for NLTK.
 <p>
 Then go into python and say:
-<br>
+  
+  ```
 import nltk
-  <br>
 nltk.download('wordnet')
-  <br>
-  nltk.download('omw')
-
+nltk.download('omw')
+  ```
+  
 <p>
 Usage:
 
+  ```
 python3 create_lemma_table.py > lemma_table.txt
-<br>
 python3 create_rel_table.py > rel_table.txt
-<br>
 python3 create_synset2lang_table.py > synset2lang_table.txt
 
 echo 'This is a test of morphological decompositions of some words' | tr ' ' '\n' | python3 wordnet_decomp.py 
+  ```
 
 Questions: kenneth.ward.church@gmail.com
